@@ -1,3 +1,3 @@
 # Kokoa Clone 2024 Update
 
-css got so much better
+html & css 매우 재미있습니다!

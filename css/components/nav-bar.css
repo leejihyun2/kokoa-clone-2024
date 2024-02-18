@@ -32,3 +32,18 @@
     bottom: 15px;
 }
 
+.nav__notice{
+    background-color: tomato;
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    left: 27px;
+    bottom: 27px;
+}
+

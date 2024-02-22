@@ -1,0 +1,21 @@
+.red-dot{
+    background-color: tomato;
+    position: absolute;
+    display: flex;
+    width: 5px;
+    height: 5px;
+    bottom: 22px;
+    left: 74px;
+    border-radius: 50%;
+}
+
+.red-dot__more{
+    background-color: tomato;
+    position: absolute;
+    display: flex;
+    width: 5px;
+    height: 5px;
+    bottom: 22px;
+    left: 124px;
+    border-radius: 50%;
+}

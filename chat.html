@@ -42,7 +42,7 @@
        <div class="chat__timestamp">
             Tuesday, April 11, 2024
        </div>
-       <div class="message-row">
+       <div class="message-row message-row--opponent">
             <img src="https://image.blip.kr/v1/file/f57673873f141aba6b11830f645244c2"/>
             <div class="message-row__content">
                 <span class="message__author">Katarina</span>
@@ -52,9 +52,31 @@
                 </div>
             </div>
        </div>
+       <div class="message-row message-row--own">
+        <div class="message-row__content">
+            <div class="message__info">
+                <span class="message__bubble">Hi!</span>
+                <span class="message__time">04:11</span>
+            </div>
+        </div>
+   </div>
     </main>
     
-   
+    <form class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-lg"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="fa-regular fa-face-smile fa-lg"></i>
+            <button>
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </form>
+    <div id="no-mobile">
+        <span>Your screen is too big</span>
+    </div>
     <script src="https://kit.fontawesome.com/ce9c78af3e.js" crossorigin="anonymous"></script>
 </body>
 </html>
